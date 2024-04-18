@@ -12,13 +12,11 @@ You are tasked with developing a simple User Profile Management System in **Node
 ### Detection and Analysis:
 
 - Employ the **Node.js** `--inspect` flag to enable debugging and use **Chrome Developer Tools** or a similar debugger to inspect memory usage.
-
 - Utilize heap snapshots or other profiling tools to identify the memory leak. Analyze the snapshots to understand how and where memory is being allocated unnecessarily.
 
 ### Fixing the Leak:
 
 - Implement a solution to prevent the memory leak.
-
 - Re-run your memory profiling to confirm that the memory leak has been resolved and document the differences observed after applying your fix.
 
 ### Documentation:
